@@ -7,6 +7,7 @@ gem 'rails', '3.1.0.rc2'
 
 gem 'sqlite3'
 gem 'postgres-pr'
+gem 'pg'
 group :production do
 gem 'therubyracer-heroku', '0.8.1.pre3'
 end
