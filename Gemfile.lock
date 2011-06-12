@@ -106,8 +106,8 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   jquery-rails
-  rails (= 3.1.0.rc2)
-  sass-rails (~> 3.1.0.rc)
+  rails
+  sass-rails
   sqlite3
   turn
   uglifier
