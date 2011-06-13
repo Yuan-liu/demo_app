@@ -10,7 +10,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110612055352) do
+ActiveRecord::Schema.define(:version => 20110613083304) do
+
+  create_table "todo_lists", :force => true do |t|
+    t.string   "content"
+    t.datetime "time"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "name"
